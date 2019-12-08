@@ -1,0 +1,57 @@
+JavaScript MA03
+----------------
+Level 2
+
+1. In your own words, describe what JavaScript Code Style is.
+
+JavaScript Code Style are coding conventions/style guidelines for programming. Code style will improve code readability and make code maintenance easier. They include: Naming and declaration rules for variables and functions. Rules for the use of white space, indentation, and comments. Programming practices and principles.
+
+
+2. What is a Regular Expression?
+
+Regular expressions (also known as 'regex') are patterns that can be performed on strings. They basically use special codes to detect patterns on strings. This allows you to do things like validate email addresses. A regular expression is a type of object. You can set up a regular expression by using a forward slash at the start and end.
+
+
+3. What does the .random() method do?
+
+The random() method is an excellent built-in method for producing random numbers. When Math.random() is executed, it returns a random number that can be anywhere between 0 and 1. The 0 is included and 1 is excluded.
+
+
+4. What does the .sort() method do?
+
+The sort() method sorts the items of an array. The sort order can be either alphabetic or numeric, and either ascending (up) or descending (down). By default, the sort() method sorts the values as strings in alphabetical and ascending order. This method changes the original array.
+
+This works well for strings ("Apple" comes before "Banana"). However, if numbers are sorted as strings, "25" is bigger than "100", because "2" is bigger than "1". Because of this, the sort() method will produce an incorrect result when sorting numbers. You can fix this by providing a "compare function"
+
+
+5. What does the .reverse() method do?
+
+The reverse() method changes the sequence of elements of the given array and returns the reverse sequence. In other words, the arrays last element becomes first and the first element becomes the last. This method also made the changes in the original array.
+
+
+6. List two examples of bad JavaScript code.
+
+You should avoid using global variables. Global variables and functions can be overwritten by other scripts. Use local variables instead, and use closures.
+
+Never Declare Number, String, or Boolean Objects. Always treat numbers, strings, or booleans as primitive values. Not as objects. Declaring these types as objects, slows down execution speed, and produces nasty side effects
+
+
+7. What data types can a JSON object contain?
+
+A JSON object can contain 6 data types:
+Objects
+Arrays
+Strings
+Numbers
+Booleans
+Null
+
+
+8. What is minifying JavaScript Code?
+
+Minifying JavaScript Code refers to the process of removing unnecessary or redundant data without affecting how the resource is processed by the browser - e.g. code comments and formatting, removing unused code, using shorter variable and function names, and so on.
+
+
+9. What is a global variable?
+
+A global variable is declared outside the function or declared with window object. It can be accessed from any function.
