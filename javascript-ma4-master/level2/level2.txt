@@ -1,0 +1,36 @@
+
+1. What is the DOM?
+
+Every web page resides inside a browser window which can be considered as an object. A Document object represents the HTML document that is displayed in that window. The Document object has various properties that refer to other objects which allow access to and modification of document content. The way a document content is accessed and modified is called the Document Object Model, or DOM.
+
+2. List three methods to manipulate the DOM.
+
+getElementById - Use the id of an element to get access to an HTML element.
+
+createElement - Creates an element and allows you to place that new element anywhere in the DOM structure.
+
+getAttribute - The method allows you to access the value of any attribute on any element on your page.
+
+3. What is an asynchronous call?
+
+Asynchronous requests will wait for a timer to finish or a request to respond while the rest of the code continues to execute. We are then avoiding blocking other operations. Then when the time is right a callback will spring these asynchronous requests into action.
+
+4. Briefly explain what the sources tab in Chromes Developers Tools does.
+
+In the sources tab, you can debugg your code. Here you can navigate the files that are linked to the html file. You can then click on a line number and add breakpoints to the code. You can then step to the code to see exactly where the problem is.
+
+5. What is a JavaScript promise?
+
+A promise is an object that may produce a single value some time in the future: either a resolved value, or a reason that it’s not resolved (e.g., a network error occurred). A promise may be in one of 3 possible states: fulfilled, rejected, or pending. Promise users can attach callbacks to handle the fulfilled value or the reason for rejection. Promises are eager, meaning that a promise will start doing whatever task you give it as soon as the promise constructor is invoked. Promises are a way to execute code asynchronously, which means that when we call a promise our code doesn’t wait for a response, but moves on to the next line of code.
+
+6. What is an API?
+
+An API (Application Programming Interface) provides a way to communicate with other software. A REST (REpresentational State Transfer) API is HTTP-based which means we can use it over the internet. We can use JavaScript’s fetch to connect to an API and fetch data.
+
+7. What is a JavaScript Event?
+
+A JavaScript event is when an event is triggered either by the browser or when a user interacts with an element on a webpage. When these events are fired off, JavaScript allows us to do something. Events are all about interaction.
+
+8. What is event bubbling?
+
+Event bubbling is under the blanket term known as 'event propagation'. Event bubbling relates to the order in which event handlers are called when one element is nested inside a second element, and both elements have registered a listener for the same event. If not handled correctly, events can bubble up to its parent's events and applications will become unstable.
